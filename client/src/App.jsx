@@ -4,6 +4,8 @@ import Navbar from './components/Navbaar'
 import About from './components/About'
 import Home from './components/Home'
 import Clients from './components/Clients'
+import Experience from './components/Experience'
+import Business from './components/Business'
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       </Routes>
       <Home/>
       <Clients/>
+      <Experience/>
+      <Business/>
     </BrowserRouter>
   )
 }
