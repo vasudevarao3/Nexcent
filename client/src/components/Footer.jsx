@@ -9,8 +9,8 @@ import share from "../assets/Icons/share.svg"
 export default function Footer() {
   return (
     <>
-      <div className="bg-slate-100 flex flex-col justify-center items-center p-[4rem]">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-bold text-D_Grey max-w-[40rem]">
+      <div className="bg-slate-100 flex flex-col justify-center items-center p-[4rem] dark:bg-slate-400">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl text-center font-bold text-D_Grey max-w-[40rem] dark:text-slate-800 ">
           Pellentesque suscipit fringilla libero eu.
         </h1>
         <div className="pt-4 p-2  md:pt-8 md:p-0 ">
@@ -76,7 +76,7 @@ export default function Footer() {
                 Stay up to date
               </h1>
               <div className="flex flex-row bg-slate-600 px-8 sm:px-4 py-2  rounded-md">
-                <input type="text" className="bg-slate-600  sm:px-1
+                <input type="email" className="bg-slate-600  sm:px-1
                 tetx-slate-600 text-sm rounded-md outline-none" placeholder="Your email address"/>
                 <img src={share} width={20} height={20} />
               </div>

@@ -11,7 +11,7 @@ import arrow from "../assets/Icons/greenarrowright.svg"
 
 export default function Customer() {
   return (
-    <div className="flex flex-col bg-slate-100 md:flex-row sm:px-[1rem] md:px-[5rem] md:gap-10 pt-5 md:pt-9 bg-Silver">
+    <div className="flex flex-col bg-slate-100 md:flex-row sm:px-[1rem] md:px-[5rem] md:gap-10 pt-5 md:pt-9 dark:bg-slate-200">
         <div className="max-w-[70rem]">
           <img src={T} width={300} height={300} />
         </div>
