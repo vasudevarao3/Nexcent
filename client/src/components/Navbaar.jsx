@@ -1,12 +1,15 @@
 import { Button, Navbar, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
-import { AiOutlineSearch } from "react-icons/ai";
-import { FaMoon } from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
 import logoImage from "../assets/Images/logoimage.svg";
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleTheme } from '../redux/themeSlice'
 import React from "react";
 
 export default function Navbaar() {
   const path = useLocation().pathname;
+  const dispatch = useDispatch();
+  const { theme } = useSelector((state) => state.theme);
   return (
     <Navbar className="border-b-2">
       <div className=" flex flex-row gap-2 md:ml-5">
@@ -14,8 +17,13 @@ export default function Navbaar() {
         <span className="text-Black font-bold text-2xl">Nexcent</span>
       </div>
       <div className="flex gap-2 md:order-2">
-        <Button className="w-12 h-10 sm:inline" color="green" pill>
-          <FaMoon />
+        <Button
+          className="w-12 h-10 sm:inline"
+          color="green"
+          pill
+          onClick={() => dispatch(toggleTheme())}
+        >
+          {theme === 'light' ? <FaMoon /> : <FaSun/>}
         </Button>
         <div className="flex">
           <Link to="/Log-in">

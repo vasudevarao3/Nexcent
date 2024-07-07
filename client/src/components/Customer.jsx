@@ -33,8 +33,8 @@ export default function Customer() {
           </div>
           <div className="flex flex-col p-9 md:p-0 md:pt-4 gap-7 md:gap-7  sm:flex-row lg:gap-[10rem] sm:gap-[10rem] sm:justify-between justify-center items-center">
             <div className="flex flex-col md:flex-row gap-12 justify-between items-center lg:gap-[22rem] ">
-              <div className="hidden flex-row gap-10">
-                <div className="flex flex-col gap-[2rem] ">
+            <div className="hidden sm:block flex-row gap-10">
+              <div className="flex flex-row gap-[2rem]">
                 <img
                   src={client1Img}
                   width={50}

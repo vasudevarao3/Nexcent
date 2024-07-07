@@ -8,6 +8,8 @@ import Experience from './components/Experience'
 import Business from './components/Business'
 import DesignFooter from './components/DesignFooter'
 import Customer from './components/Customer'
+import Marketing from './components/Marketing'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
       <Business/>
       <DesignFooter/>
       <Customer/>
+      <Marketing/>
+      <Footer/>
     </BrowserRouter>
   )
 }
