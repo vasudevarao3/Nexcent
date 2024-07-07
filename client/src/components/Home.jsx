@@ -39,7 +39,7 @@ export default function Home() {
             key={index}
             type="button"
             className={`w-3 h-3 rounded-full ${
-              index === activeSlide ? 'bg-gray-800' : 'bg-gray-300'
+              index === activeSlide ? 'bg-slate-900 dark:bg-white' : 'bg-slate-400 '
             }`}
             aria-current={index === activeSlide}
             aria-label={`Slide ${index + 1}`}
