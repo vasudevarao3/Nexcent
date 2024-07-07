@@ -6,6 +6,8 @@ import Home from './components/Home'
 import Clients from './components/Clients'
 import Experience from './components/Experience'
 import Business from './components/Business'
+import DesignFooter from './components/DesignFooter'
+import Customer from './components/Customer'
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <Clients/>
       <Experience/>
       <Business/>
+      <DesignFooter/>
+      <Customer/>
     </BrowserRouter>
   )
 }
