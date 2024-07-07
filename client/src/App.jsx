@@ -1,7 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbaar'
 import About from './components/About'
+import Home from './components/Home'
+import Clients from './components/Clients'
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -9,6 +12,8 @@ export default function App() {
         <Route path="/" element={<Navbar/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
+      <Home/>
+      <Clients/>
     </BrowserRouter>
   )
 }
