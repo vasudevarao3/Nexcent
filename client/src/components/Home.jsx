@@ -14,7 +14,7 @@ export default function Home() {
             Where to grow your business as a photographer: site or social media?
           </p>
           <div className="pt-6">
-            <Button href="" className="text-white bg-green-400">
+            <Button href="" className="text-white rounded-md bg-green-400 dark:bg-green-500">
               Register
             </Button>
           </div>

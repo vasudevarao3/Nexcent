@@ -12,7 +12,7 @@ export default function Clients() {
     <>
       <div>
         <div className="w-screen max-w-[75rem] justify-center items-center text-center text-slate-700 font-Inter p-5 md:p-0">
-          <h1 className="text-slate-700 font-extrabold text-3xl md:text-2xl pt-10 pb-2 md:pt-9 md:pb-3">
+          <h1 className="text-slate-700 font-extrabold text-3xl md:text-2xl pt-10 pb-2 md:pt-9 md:pb-3 dark:text-slate-200">
             Our Clients
           </h1>
           <p className="text-[#717171]">
@@ -35,7 +35,7 @@ export default function Clients() {
 
       <div className="w-full flex flex-col justify-center items-center   p-5 md:p-0">
         <div className="text-slate-700 font-Inter text-2xl">
-          <h1 className="text- text-2xl font-semibold max-w-[28rem] text-center">
+          <h1 className="text- text-2xl font-semibold max-w-[28rem] text-center dark:text-slate-300">
             Manage your entire community in a single system
           </h1>
         </div>
@@ -45,7 +45,7 @@ export default function Clients() {
       </div>
       <div className="flex flex-col gap-6 md:flex-row pt-4 md:px-[3rem]">
         <div className="flex flex-col  justify-center items-center px-4 pt-4">
-          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4">
+          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4 dark:bg-slate-300">
             <div className="">
               <img src={members} width={50} height={50} />
             </div>
@@ -59,7 +59,7 @@ export default function Clients() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center px-4 pt-4">
-          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4">
+          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4 dark:bg-slate-300">
             <div className="">
               <img src={members} width={50} height={50} />
             </div>
@@ -73,7 +73,7 @@ export default function Clients() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center px-4 pt-4">
-          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4">
+          <div className="flex flex-col justify-center items-center bg-white shadow-sm rounded-md p-4 dark:bg-slate-300">
             <div className="">
               <img src={members} width={50} height={50} />
             </div>

@@ -22,7 +22,7 @@ export default function Experience() {
             elementum pulvinar odio.
           </p>
           <div className="pt-4 p-2 md:pt-8 md:p-0 ">
-            <Button color="green">
+            <Button className='bg-green-500 rounded-md dark:bg-green-500'>
                 Learn More
             </Button>
           </div>

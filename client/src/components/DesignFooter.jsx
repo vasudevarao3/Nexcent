@@ -20,7 +20,7 @@ export default function DesignFooter() {
             ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
           </p>
           <div className="pt-4 p-2 md:pt-8 md:pl-0 ">
-            <Button className="text-white bg-green-600 rounded-sm">Learn More</Button>
+            <Button className="text-white bg-green-500 rounded-md dark:bg-green-500">Learn More</Button>
           </div>
         </div>
         </div>
